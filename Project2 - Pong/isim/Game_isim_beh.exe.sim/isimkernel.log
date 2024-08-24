@@ -1,0 +1,10 @@
+Command line:
+   Game_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49806
+
+Wed Nov 29 17:25:52 2023
+
+
+ Elaboration Time: 0.02 sec
