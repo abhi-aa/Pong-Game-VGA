@@ -1,0 +1,26 @@
+Running: /CMC/tools/xilinx/13.4/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/student2/aacharya/Desktop/COE758/Project2/test_isim_beh.exe -prj /home/student2/aacharya/Desktop/COE758/Project2/test_beh.prj work.test 
+ISim O.87xd (signature 0x8ddf5b5d)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/student2/aacharya/Desktop/COE758/Project2/Game.vhd" into library work
+WARNING:HDLCompiler:1369 - "/home/student2/aacharya/Desktop/COE758/Project2/Game.vhd" Line 188: Possible infinite loop; process does not have a wait statement
+Parsing VHDL file "/home/student2/aacharya/Desktop/COE758/Project2/test.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 123276 KB
+Fuse CPU Usage: 910 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture behavioral of entity Game [game_default]
+Compiling architecture behavior of entity test
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 8 VHDL Units
+Built simulation executable /home/student2/aacharya/Desktop/COE758/Project2/test_isim_beh.exe
+Fuse Memory Usage: 1223564 KB
+Fuse CPU Usage: 1090 ms
+GCC CPU Usage: 370 ms

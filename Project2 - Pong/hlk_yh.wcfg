@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/student2/aacharya/Desktop/COE758/Project2/test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/sw0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sw0</obj_property>
+      <obj_property name="ObjectShortName">sw0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/sw1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sw1</obj_property>
+      <obj_property name="ObjectShortName">sw1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/sw2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sw2</obj_property>
+      <obj_property name="ObjectShortName">sw2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/sw3" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sw3</obj_property>
+      <obj_property name="ObjectShortName">sw3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/h" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">h</obj_property>
+      <obj_property name="ObjectShortName">h</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/v" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">v</obj_property>
+      <obj_property name="ObjectShortName">v</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/dac_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dac_clk</obj_property>
+      <obj_property name="ObjectShortName">dac_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/bout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">bout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/gout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">gout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">gout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/rout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/dac_clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">dac_clk_period</obj_property>
+      <obj_property name="ObjectShortName">dac_clk_period</obj_property>
+   </wvobject>
+</wave_config>

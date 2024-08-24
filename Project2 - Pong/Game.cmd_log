@@ -1,0 +1,237 @@
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf -ucf game2.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+bitgen -intstyle ise -f Game.ut Game.ncd 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf -ucf game2.ucf 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf -ucf game2.ucf 
+bitgen -intstyle ise -f Game.ut Game.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf -ucf game2.ucf 
+bitgen -intstyle ise -f Game.ut Game.ncd 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf -ucf game2.ucf 
+bitgen -intstyle ise -f Game.ut Game.ncd 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf -ucf game2.ucf 
+bitgen -intstyle ise -f Game.ut Game.ncd 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf -ucf game2.ucf 
+bitgen -intstyle ise -f Game.ut Game.ncd 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+bitgen -intstyle ise -f Game.ut Game.ncd 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf -ucf game2.ucf 
+bitgen -intstyle ise -f Game.ut Game.ncd 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf -ucf game2.ucf 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf -ucf game2.ucf 
+bitgen -intstyle ise -f Game.ut Game.ncd 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf -ucf game2.ucf 
+bitgen -intstyle ise -f Game.ut Game.ncd 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf -ucf game2.ucf 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf -ucf game2.ucf 
+bitgen -intstyle ise -f Game.ut Game.ncd 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf -ucf game2.ucf 
+bitgen -intstyle ise -f Game.ut Game.ncd 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf -ucf game2.ucf 
+bitgen -intstyle ise -f Game.ut Game.ncd 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf -ucf game2.ucf 
+bitgen -intstyle ise -f Game.ut Game.ncd 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf -ucf game2.ucf 
+bitgen -intstyle ise -f Game.ut Game.ncd 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf -ucf game2.ucf 
+bitgen -intstyle ise -f Game.ut Game.ncd 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf -ucf game2.ucf 
+bitgen -intstyle ise -f Game.ut Game.ncd 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf -ucf game2.ucf 
+bitgen -intstyle ise -f Game.ut Game.ncd 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf -ucf game2.ucf 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf -ucf game2.ucf 
+bitgen -intstyle ise -f Game.ut Game.ncd 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf -ucf game2.ucf 
+bitgen -intstyle ise -f Game.ut Game.ncd 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf -ucf game2.ucf 
+bitgen -intstyle ise -f Game.ut Game.ncd 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf -ucf game2.ucf 
+bitgen -intstyle ise -f Game.ut Game.ncd 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf -ucf game2.ucf 
+bitgen -intstyle ise -f Game.ut Game.ncd 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf -ucf game2.ucf 
+bitgen -intstyle ise -f Game.ut Game.ncd 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf -ucf game2.ucf 
+bitgen -intstyle ise -f Game.ut Game.ncd 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf -ucf game2.ucf 
+bitgen -intstyle ise -f Game.ut Game.ncd 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf -ucf game2.ucf 
+bitgen -intstyle ise -f Game.ut Game.ncd 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/Project2/Game.xst" -ofn "/home/student2/aacharya/Desktop/COE758/Project2/Game.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc game2.ucf -p xc3s500e-fg320-5 Game.ngc Game.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Game_map.ncd Game.ngd Game.pcf 
+par -w -intstyle ise -ol high -t 1 Game_map.ncd Game.ncd Game.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Game.twx Game.ncd -o Game.twr Game.pcf -ucf game2.ucf 
