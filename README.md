@@ -34,7 +34,14 @@ This project is part of the COE758 Digital Systems Engineering course and involv
 - **CAD Tool:** Xilinx ISE
 - **Programming Language:** VHDL
 
+## Symbol Diagram
+![Symbol Diagram](C:\Users\abhig\OneDrive\Desktop\Abhi's folder\TMU\WORK\WORK - 4A\COE758\Labs\Lab Project 2\images from Report\Diagrams\Symbol.png)
+
 ## Block Diagram
+
+![Block Diagram](path_to_block_diagram_image)
+
+## State Diagrams
 
 ![Block Diagram](path_to_block_diagram_image)
 
