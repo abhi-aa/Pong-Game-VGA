@@ -45,7 +45,14 @@ This project is part of the COE758 Digital Systems Engineering course and involv
 
 ## State Diagrams
 
-![Block Diagram](path_to_block_diagram_image)
+![state1](https://github.com/user-attachments/assets/c53b187d-036a-4f59-b778-9b627c641dba)
+DAC_clk FSM
+
+![fig4](https://github.com/user-attachments/assets/34e6e126-b508-44c3-a82e-270de8705137)
+Hsync FSM
+
+![fig5](https://github.com/user-attachments/assets/2bebcf30-6cc9-4da0-8584-9b88af76a9b8)
+Vsync FSM
 
 ## How to Run
 
