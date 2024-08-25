@@ -40,7 +40,8 @@ This project is part of the COE758 Digital Systems Engineering course and involv
 
 ## Block Diagram
 
-![Block Diagram](path_to_block_diagram_image)
+![Block](https://github.com/user-attachments/assets/bd1819cd-9e56-4b9a-b263-0fdb588b76e8)
+
 
 ## State Diagrams
 
