@@ -37,22 +37,29 @@ This project is part of the COE758 Digital Systems Engineering course and involv
 ## Symbol Diagram
 ![Symbol](https://github.com/user-attachments/assets/8cd056d3-9f8d-431f-93e7-3ff004c0cff4)
 
+**Figure 1**: VGA Symbol Diagram
+
 
 ## Block Diagram
 
 ![Block](https://github.com/user-attachments/assets/bd1819cd-9e56-4b9a-b263-0fdb588b76e8)
 
+**Figure 2**: Complete block diagram of the game
+
 
 ## State Diagrams
 
 ![state1](https://github.com/user-attachments/assets/c53b187d-036a-4f59-b778-9b627c641dba)
-DAC_clk FSM
+
+**Figure 3**: DAC_clk FSM
 
 ![fig4](https://github.com/user-attachments/assets/34e6e126-b508-44c3-a82e-270de8705137)
-Hsync FSM
+
+**Figure 4**: Hsync FSM
 
 ![fig5](https://github.com/user-attachments/assets/2bebcf30-6cc9-4da0-8584-9b88af76a9b8)
-Vsync FSM
+
+**Figure 5**: Vsync FSM
 
 ## How to Run
 
