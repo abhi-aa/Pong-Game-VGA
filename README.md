@@ -35,7 +35,8 @@ This project is part of the COE758 Digital Systems Engineering course and involv
 - **Programming Language:** VHDL
 
 ## Symbol Diagram
-![Symbol Diagram](C:\Users\abhig\OneDrive\Desktop\Abhi's folder\TMU\WORK\WORK - 4A\COE758\Labs\Lab Project 2\images from Report\Diagrams\Symbol.png)
+![Symbol](https://github.com/user-attachments/assets/8cd056d3-9f8d-431f-93e7-3ff004c0cff4)
+
 
 ## Block Diagram
 
